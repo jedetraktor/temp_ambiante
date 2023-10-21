@@ -1,0 +1,8 @@
+tempAmbiante = int(input("Saisissez la température ambiante :"))
+tempBassins = int(input("Saisissez la temperature des bassins :"))
+
+difference = tempAmbiante - tempBassins
+if difference < 20 or difference > 40 :
+    print("ALARME !")
+else :
+    print("Tout va bien.")
